@@ -1,0 +1,342 @@
+{
+  "caffeine": {
+    "input_smiles": "Cn1c(=O)c2c(ncn2C)n(C)c1=O",
+    "search_hash": "bba844a6-8f32-4d62-aae8-c3b8d69ce42c",
+    "total_hits": 1,
+    "returned_structures": [
+      {
+        "id": "5671",
+        "chemical_id": "5671",
+        "name": "1,3,7-trimethyl-2,3,6,7-tetrahydro-1H-purine-2,6-dione",
+        "smiles": "Cn1c(=O)c2c(ncn2C)n(C)c1=O",
+        "inchi": "InChI=1S/C8H10N4O2/c1-10-4-9-6-5(10)7(13)12(3)8(14)11(6)2/h4H,1-3H3",
+        "inchi_key": "RYYVLZVUVIJVGH-UHFFFAOYSA-N",
+        "mol_weight": 194.191,
+        "log_p": -1.0293,
+        "is_element": "0",
+        "global_frequency": 4,
+        "mchem_struct_alert": "0",
+        "mol_formula": "C8H10N4O2",
+        "hbd": 0,
+        "heavy_atoms": 14,
+        "psa": 61.82,
+        "hba": 6,
+        "aromatic_rings": 2,
+        "qed_weighted": 0.538463,
+        "organic": 1,
+        "num_ro5_violations": 0,
+        "ro3_pass": 0,
+        "rtb": 0,
+        "similarity": ""
+      }
+    ],
+    "exact_structure_ids": [
+      "5671"
+    ],
+    "documents_for_exact_ids": {
+      "5671": {
+        "status_code": 200,
+        "body": {
+          "status": "OK",
+          "timestamp": "2026-03-14 05:23:29 +0000",
+          "error_message": "",
+          "data": {
+            "pagination": "",
+            "type": "DOCUMENTS_FOR_STRUCTURES",
+            "results": {
+              "total_hits": 155781,
+              "documents": [
+                {
+                  "docId": "CN-106752276-A",
+                  "metadata": {
+                    "pd": "null",
+                    "titles": [
+                      {
+                        "lang": "en",
+                        "titles": [
+                          "One kind paint mixing antioxidant"
+                        ]
+                      }
+                    ],
+                    "pdfLink": ""
+                  },
+                  "pa": "null"
+                },
+                {
+                  "docId": "CN-106795693-A",
+                  "metadata": {
+                    "pd": "null",
+                    "titles": [
+                      {
+                        "lang": "en",
+                        "titles": [
+                          "Dispersions and films comprising aqueous polyurethane compositions"
+                        ]
+                      }
+                    ],
+                    "pdfLink": ""
+                  },
+                  "pa": "null"
+                },
+                {
+                  "docId": "CN-106929379-A",
+                  "metadata": {
+                    "pd": "null",
+                    "titles": [
+                      {
+                        "lang": "en",
+                        "titles": [
+                          "It is a kind of to contain raisins, cynomorium songaricum, the nutrition and health care vinegar of saline cistanche and preparation method thereof"
+                        ]
+                      }
+                    ],
+                    "pdfLink": ""
+                  },
+                  "pa": "null"
+                },
+                {
+                  "docId": "CN-104334547-B",
+                  "metadata": {
+                    "pd": "null",
+                    "titles": [
+                      {
+                        "lang": "en",
+                        "titles": [
+                          "Triazoles as KV3 inhibitors"
+                        ]
+                      }
+                    ],
+                    "pdfLink": ""
+                  },
+                  "pa": "null"
+                },
+                {
+                  "docId": "CN-106687572-A",
+                  "metadata": {
+                    "pd": "null",
+                    "titles": [
+                      {
+                        "lang": "en",
+                        "titles": [
+                          "Encapsulated cleaning compositions"
+                        ]
+                      }
+                    ],
+                    "pdfLink": ""
+                  },
+                  "pa": "null"
+                }
+              ],
+              "query": ""
+            },
+            "query": ""
+          }
+        }
+      }
+    }
+  },
+  "cumene": {
+    "input_smiles": "CC(C)c1ccccc1",
+    "search_hash": "c21acb97-d183-423e-91eb-9d4ed2566100",
+    "total_hits": 3,
+    "returned_structures": [
+      {
+        "id": "18546123",
+        "chemical_id": "18546123",
+        "name": "name_proxy_for:RWGFKTVRMDUZSP-UHFFFAOYSA-N",
+        "smiles": "CC(C)[C]1C=C[CH]C=C1",
+        "inchi": "InChI=1S/C9H12/c1-8(2)9-6-4-3-5-7-9/h3-8H,1-2H3",
+        "inchi_key": "RWGFKTVRMDUZSP-UHFFFAOYSA-N",
+        "mol_weight": 120.192,
+        "log_p": 2.54718,
+        "is_element": "0",
+        "global_frequency": 1,
+        "mchem_struct_alert": "0",
+        "mol_formula": "C9H12",
+        "hbd": 0,
+        "heavy_atoms": 9,
+        "psa": 0.0,
+        "hba": 0,
+        "aromatic_rings": 0,
+        "qed_weighted": 0.498553,
+        "organic": 1,
+        "num_ro5_violations": 0,
+        "ro3_pass": 0,
+        "rtb": 1,
+        "similarity": ""
+      },
+      {
+        "id": "11254813",
+        "chemical_id": "11254813",
+        "name": "2-phenylpropan-2-ylidene",
+        "smiles": "CC(C)c1ccccc1",
+        "inchi": "InChI=1S/C9H12/c1-8(2)9-6-4-3-5-7-9/h3-8H,1-2H3",
+        "inchi_key": "RWGFKTVRMDUZSP-UHFFFAOYSA-N",
+        "mol_weight": 120.192,
+        "log_p": 2.81,
+        "is_element": "0",
+        "global_frequency": 2,
+        "mchem_struct_alert": "0",
+        "mol_formula": "C9H12",
+        "hbd": 0,
+        "heavy_atoms": 9,
+        "psa": 0.0,
+        "hba": 0,
+        "aromatic_rings": 1,
+        "qed_weighted": 0.534262,
+        "organic": 1,
+        "num_ro5_violations": 0,
+        "ro3_pass": 0,
+        "rtb": 1,
+        "similarity": ""
+      },
+      {
+        "id": "6568",
+        "chemical_id": "6568",
+        "name": "propan-2-ylbenzene",
+        "smiles": "CC(C)c1ccccc1",
+        "inchi": "InChI=1S/C9H12/c1-8(2)9-6-4-3-5-7-9/h3-8H,1-2H3",
+        "inchi_key": "RWGFKTVRMDUZSP-UHFFFAOYSA-N",
+        "mol_weight": 120.192,
+        "log_p": 2.81,
+        "is_element": "0",
+        "global_frequency": 19,
+        "mchem_struct_alert": "0",
+        "mol_formula": "C9H12",
+        "hbd": 0,
+        "heavy_atoms": 9,
+        "psa": 0.0,
+        "hba": 0,
+        "aromatic_rings": 1,
+        "qed_weighted": 0.534262,
+        "organic": 1,
+        "num_ro5_violations": 0,
+        "ro3_pass": 0,
+        "rtb": 1,
+        "similarity": ""
+      }
+    ],
+    "exact_structure_ids": [
+      "11254813",
+      "6568"
+    ],
+    "documents_for_exact_ids": {
+      "11254813": {
+        "status_code": 500,
+        "body": {
+          "timestamp": 1773465813807,
+          "status": "INTERNAL_SERVER_ERROR",
+          "error_message": "Error from server at http://solr.solr:8983/solr/alexandria: org.apache.solr.search.SyntaxError: Cannot parse 'ucid:()': Encountered \" \")\" \") \"\" at line 1, column 6.\nWas expecting one of:\n    <NOT> ...\n    \"+\" ...\n    \"-\" ...\n    <BAREOPER> ...\n    \"(\" ...\n    \"*\" ...\n    <QUOTED> ...\n    <TERM> ...\n    <PREFIXTERM> ...\n    <WILDTERM> ...\n    <REGEXPTERM> ...\n    \"[\" ...\n    \"{\" ...\n    <LPARAMS> ...\n    \"filter(\" ...\n    <NUMBER> ...\n    <TERM> ...\n    ",
+          "data": {}
+        }
+      },
+      "6568": {
+        "status_code": 200,
+        "body": {
+          "status": "OK",
+          "timestamp": "2026-03-14 05:23:34 +0000",
+          "error_message": "",
+          "data": {
+            "pagination": "",
+            "type": "DOCUMENTS_FOR_STRUCTURES",
+            "results": {
+              "total_hits": 89523,
+              "documents": [
+                {
+                  "docId": "CN-107080966-A",
+                  "metadata": {
+                    "pd": "null",
+                    "titles": [
+                      {
+                        "lang": "en",
+                        "titles": [
+                          "A kind of rectifying tower with bulkhead and bulkhead rectificating method"
+                        ]
+                      }
+                    ],
+                    "pdfLink": ""
+                  },
+                  "pa": "null"
+                },
+                {
+                  "docId": "CN-104321320-B",
+                  "metadata": {
+                    "pd": "null",
+                    "titles": [
+                      {
+                        "lang": "en",
+                        "titles": [
+                          "Prepare statin facilitates method"
+                        ]
+                      }
+                    ],
+                    "pdfLink": ""
+                  },
+                  "pa": "null"
+                },
+                {
+                  "docId": "CN-104619776-B",
+                  "metadata": {
+                    "pd": "null",
+                    "titles": [
+                      {
+                        "lang": "en",
+                        "titles": [
+                          "Polyamide resin composition and molded article"
+                        ]
+                      }
+                    ],
+                    "pdfLink": ""
+                  },
+                  "pa": "null"
+                },
+                {
+                  "docId": "CN-106751902-A",
+                  "metadata": {
+                    "pd": "null",
+                    "titles": [
+                      {
+                        "lang": "en",
+                        "titles": [
+                          "A kind of thermally conductive silicone rubber composite material and preparation method thereof"
+                        ]
+                      }
+                    ],
+                    "pdfLink": ""
+                  },
+                  "pa": "null"
+                },
+                {
+                  "docId": "CN-106794685-A",
+                  "metadata": {
+                    "pd": "null",
+                    "titles": [
+                      {
+                        "lang": "en",
+                        "titles": [
+                          "Synthetic resin laminated sheet"
+                        ]
+                      }
+                    ],
+                    "pdfLink": ""
+                  },
+                  "pa": "null"
+                }
+              ],
+              "query": ""
+            },
+            "query": ""
+          }
+        }
+      }
+    }
+  },
+  "choline_like_testcase": {
+    "input_smiles": "CCCCCCCCC[NH+]1C[C@@H]([C@H]([C@@H]([C@H]1CO)O)O)O",
+    "search_hash": "5cfd34cc-94c6-49aa-8962-29e53884f54f",
+    "total_hits": 0,
+    "returned_structures": [],
+    "exact_structure_ids": [],
+    "documents_for_exact_ids": {}
+  }
+}

@@ -1,0 +1,285 @@
+.s...FF..ss............sFFsFF.F                                                                                                                                                                                        [100%]
+========================================================================================================== FAILURES ==========================================================================================================
+_______________________________________________________________________________________________________ test_q2s_iupac _______________________________________________________________________________________________________
+
+single_iupac = '4-(4-hydroxyphenyl)butan-2-one'
+
+    def test_q2s_iupac(single_iupac):
+        tool = Query2SMILES()
+        out = tool._run(single_iupac)
+>       assert out == "CC(=O)CCc1ccc(O)cc1"
+E       AssertionError: assert 'Could not fi...le at a time.' == 'CC(=O)CCc1ccc(O)cc1'
+E         
+E         - CC(=O)CCc1ccc(O)cc1
+E         + Could not find a molecule matching the text. One possible cause is that the input is incorrect, input one molecule at a time.
+
+chemcrow-public-main/tests/test_converters.py:47: AssertionError
+---------------------------------------------------------------------------------------------------- Captured stderr call ----------------------------------------------------------------------------------------------------
+[01:09:24] SMILES Parse Error: syntax error while parsing: 4-(4-hydroxyphenyl)butan-2-one
+[01:09:24] SMILES Parse Error: check for mistakes around position 1:
+[01:09:24] 4-(4-hydroxyphenyl)butan-2-one
+[01:09:24] ^
+[01:09:24] SMILES Parse Error: Failed parsing SMILES '4-(4-hydroxyphenyl)butan-2-one' for input: '4-(4-hydroxyphenyl)butan-2-one'
+[01:09:24] SMILES Parse Error: syntax error while parsing: 4-(4-hydroxyphenyl)butan-2-one
+[01:09:24] SMILES Parse Error: check for mistakes around position 1:
+[01:09:24] 4-(4-hydroxyphenyl)butan-2-one
+[01:09:24] ^
+[01:09:24] SMILES Parse Error: Failed parsing SMILES '4-(4-hydroxyphenyl)butan-2-one' for input: '4-(4-hydroxyphenyl)butan-2-one'
+[01:09:24] SMILES Parse Error: syntax error while parsing: Could
+[01:09:24] SMILES Parse Error: check for mistakes around position 3:
+[01:09:24] Could
+[01:09:24] ~~^
+[01:09:24] SMILES Parse Error: Failed parsing SMILES 'Could' for input: 'Could'
+[01:09:24] SMILES Parse Error: syntax error while parsing: Could
+[01:09:24] SMILES Parse Error: check for mistakes around position 3:
+[01:09:24] Could
+[01:09:24] ~~^
+[01:09:24] SMILES Parse Error: Failed parsing SMILES 'Could' for input: 'Could'
+[01:09:25] SMILES Parse Error: syntax error while parsing: Could
+[01:09:25] SMILES Parse Error: check for mistakes around position 3:
+[01:09:25] Could
+[01:09:25] ~~^
+[01:09:25] SMILES Parse Error: Failed parsing SMILES 'Could' for input: 'Could'
+______________________________________________________________________________________________________ test_q2s_cafeine ______________________________________________________________________________________________________
+
+singlemol = 'O=C1N(C)C(C2=C(N=CN2C)N1C)=O'
+
+    def test_q2s_cafeine(singlemol):
+        tool = Query2SMILES()
+        out = tool._run("caffeine")
+>       assert out == canonical_smiles(singlemol)
+E       AssertionError: assert 'Could not fi...le at a time.' == 'Cn1c(=O)c2c(ncn2C)n(C)c1=O'
+E         
+E         - Cn1c(=O)c2c(ncn2C)n(C)c1=O
+E         + Could not find a molecule matching the text. One possible cause is that the input is incorrect, input one molecule at a time.
+
+chemcrow-public-main/tests/test_converters.py:53: AssertionError
+---------------------------------------------------------------------------------------------------- Captured stderr call ----------------------------------------------------------------------------------------------------
+[01:09:25] SMILES Parse Error: syntax error while parsing: caffeine
+[01:09:25] SMILES Parse Error: check for mistakes around position 2:
+[01:09:25] caffeine
+[01:09:25] ~^
+[01:09:25] SMILES Parse Error: Failed parsing SMILES 'caffeine' for input: 'caffeine'
+[01:09:25] SMILES Parse Error: syntax error while parsing: caffeine
+[01:09:25] SMILES Parse Error: check for mistakes around position 2:
+[01:09:25] caffeine
+[01:09:25] ~^
+[01:09:25] SMILES Parse Error: Failed parsing SMILES 'caffeine' for input: 'caffeine'
+[01:09:26] SMILES Parse Error: syntax error while parsing: Could
+[01:09:26] SMILES Parse Error: check for mistakes around position 3:
+[01:09:26] Could
+[01:09:26] ~~^
+[01:09:26] SMILES Parse Error: Failed parsing SMILES 'Could' for input: 'Could'
+[01:09:26] SMILES Parse Error: syntax error while parsing: Could
+[01:09:26] SMILES Parse Error: check for mistakes around position 3:
+[01:09:26] Could
+[01:09:26] ~~^
+[01:09:26] SMILES Parse Error: Failed parsing SMILES 'Could' for input: 'Could'
+[01:09:27] SMILES Parse Error: syntax error while parsing: Could
+[01:09:27] SMILES Parse Error: check for mistakes around position 3:
+[01:09:27] Could
+[01:09:27] ~~^
+[01:09:27] SMILES Parse Error: Failed parsing SMILES 'Could' for input: 'Could'
+__________________________________________________________________________________________________ test_explosive_check_exp __________________________________________________________________________________________________
+
+explosive = ExplosiveCheck(name='ExplosiveCheck', description='Input CAS number, returns if molecule is explosive.', args_schema=N...ne, metadata=None, handle_tool_error=False, mol_safety=<chemcrow.tools.safety.MoleculeSafety object at 0x7f08c7332ef0>)
+
+    def test_explosive_check_exp(explosive):
+        tnt_cas = "118-96-7"
+        ans = explosive(tnt_cas)
+>       assert "Error" not in ans
+E       AssertionError: assert 'Error' not in 'Explosive C...GHS rating. '
+E         
+E         'Error' is contained here:
+E           Explosive Check Error. The molecule may not be assigned a GHS rating. 
+E         ?                 +++++
+
+chemcrow-public-main/tests/test_safety_tools.py:59: AssertionError
+---------------------------------------------------------------------------------------------------- Captured stderr call ----------------------------------------------------------------------------------------------------
+[01:09:32] SMILES Parse Error: syntax error while parsing: 118-96-7
+[01:09:32] SMILES Parse Error: check for mistakes around position 1:
+[01:09:32] 118-96-7
+[01:09:32] ^
+[01:09:32] SMILES Parse Error: Failed parsing SMILES '118-96-7' for input: '118-96-7'
+[01:09:32] SMILES Parse Error: syntax error while parsing: 118-96-7
+[01:09:32] SMILES Parse Error: check for mistakes around position 1:
+[01:09:32] 118-96-7
+[01:09:32] ^
+[01:09:32] SMILES Parse Error: Failed parsing SMILES '118-96-7' for input: '118-96-7'
+________________________________________________________________________________________________ test_explosive_check_nonexp _________________________________________________________________________________________________
+
+explosive = ExplosiveCheck(name='ExplosiveCheck', description='Input CAS number, returns if molecule is explosive.', args_schema=N...ne, metadata=None, handle_tool_error=False, mol_safety=<chemcrow.tools.safety.MoleculeSafety object at 0x7f08c72d5750>)
+
+    def test_explosive_check_nonexp(explosive):
+        non_exp_cas = "10025-87-3"
+        ans = explosive(non_exp_cas)
+>       assert "Error" not in ans
+E       AssertionError: assert 'Error' not in 'Explosive C...GHS rating. '
+E         
+E         'Error' is contained here:
+E           Explosive Check Error. The molecule may not be assigned a GHS rating. 
+E         ?                 +++++
+
+chemcrow-public-main/tests/test_safety_tools.py:66: AssertionError
+---------------------------------------------------------------------------------------------------- Captured stderr call ----------------------------------------------------------------------------------------------------
+[01:09:36] SMILES Parse Error: syntax error while parsing: 10025-87-3
+[01:09:36] SMILES Parse Error: check for mistakes around position 1:
+[01:09:36] 10025-87-3
+[01:09:36] ^
+[01:09:36] SMILES Parse Error: Failed parsing SMILES '10025-87-3' for input: '10025-87-3'
+[01:09:36] SMILES Parse Error: syntax error while parsing: 10025-87-3
+[01:09:36] SMILES Parse Error: check for mistakes around position 1:
+[01:09:36] 10025-87-3
+[01:09:36] ^
+[01:09:36] SMILES Parse Error: Failed parsing SMILES '10025-87-3' for input: '10025-87-3'
+______________________________________________________________________________________________________ test_patentcheck ______________________________________________________________________________________________________
+
+singlemol = 'O=C1N(C)C(C2=C(N=CN2C)N1C)=O'
+patentcheck = PatentCheck(name='PatentCheck', description='Input SMILES, returns if molecule is patented. You may also input several..._direct=False, verbose=False, callbacks=None, callback_manager=None, tags=None, metadata=None, handle_tool_error=False)
+
+    def test_patentcheck(singlemol, patentcheck):
+        patented = patentcheck._run(singlemol)
+>       patented = ast.literal_eval(patented)
+
+chemcrow-public-main/tests/test_search.py:64: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+../miniconda3/envs/chemcrow-repro/lib/python3.10/ast.py:64: in literal_eval
+    node_or_string = parse(node_or_string.lstrip(" \t"), mode='eval')
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+source = 'Invalid SMILES string', filename = '<unknown>', mode = 'eval'
+
+    def parse(source, filename='<unknown>', mode='exec', *,
+              type_comments=False, feature_version=None):
+        """
+        Parse the source into an AST node.
+        Equivalent to compile(source, filename, mode, PyCF_ONLY_AST).
+        Pass type_comments=True to get back type comments where the syntax allows.
+        """
+        flags = PyCF_ONLY_AST
+        if type_comments:
+            flags |= PyCF_TYPE_COMMENTS
+        if isinstance(feature_version, tuple):
+            major, minor = feature_version  # Should be a 2-tuple.
+            assert major == 3
+            feature_version = minor
+        elif feature_version is None:
+            feature_version = -1
+        # Else it should be an int giving the minor version for 3.x.
+>       return compile(source, filename, mode, flags,
+                       _feature_version=feature_version)
+E         File "<unknown>", line 1
+E           Invalid SMILES string
+E                   ^^^^^^
+E       SyntaxError: invalid syntax
+
+../miniconda3/envs/chemcrow-repro/lib/python3.10/ast.py:50: SyntaxError
+---------------------------------------------------------------------------------------------------- Captured stdout call ----------------------------------------------------------------------------------------------------
+Starting surechembl download to cache directory /root/.cache/molbloom
+__________________________________________________________________________________________________ test_patentcheck_molset ___________________________________________________________________________________________________
+
+molset1 = 'O=C1N(C)C(C2=C(N=CN2C)N1C)=O.CC(C)c1ccccc1'
+patentcheck = PatentCheck(name='PatentCheck', description='Input SMILES, returns if molecule is patented. You may also input several..._direct=False, verbose=False, callbacks=None, callback_manager=None, tags=None, metadata=None, handle_tool_error=False)
+
+    def test_patentcheck_molset(molset1, patentcheck):
+        patented = patentcheck._run(molset1)
+>       patented = ast.literal_eval(patented)
+
+chemcrow-public-main/tests/test_search.py:71: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+../miniconda3/envs/chemcrow-repro/lib/python3.10/ast.py:64: in literal_eval
+    node_or_string = parse(node_or_string.lstrip(" \t"), mode='eval')
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+source = 'Invalid SMILES string', filename = '<unknown>', mode = 'eval'
+
+    def parse(source, filename='<unknown>', mode='exec', *,
+              type_comments=False, feature_version=None):
+        """
+        Parse the source into an AST node.
+        Equivalent to compile(source, filename, mode, PyCF_ONLY_AST).
+        Pass type_comments=True to get back type comments where the syntax allows.
+        """
+        flags = PyCF_ONLY_AST
+        if type_comments:
+            flags |= PyCF_TYPE_COMMENTS
+        if isinstance(feature_version, tuple):
+            major, minor = feature_version  # Should be a 2-tuple.
+            assert major == 3
+            feature_version = minor
+        elif feature_version is None:
+            feature_version = -1
+        # Else it should be an int giving the minor version for 3.x.
+>       return compile(source, filename, mode, flags,
+                       _feature_version=feature_version)
+E         File "<unknown>", line 1
+E           Invalid SMILES string
+E                   ^^^^^^
+E       SyntaxError: invalid syntax
+
+../miniconda3/envs/chemcrow-repro/lib/python3.10/ast.py:50: SyntaxError
+---------------------------------------------------------------------------------------------------- Captured stdout call ----------------------------------------------------------------------------------------------------
+Starting surechembl download to cache directory /root/.cache/molbloom
+____________________________________________________________________________________________________ test_patentcheck_not ____________________________________________________________________________________________________
+
+choline = 'CCCCCCCCC[NH+]1C[C@@H]([C@H]([C@@H]([C@H]1CO)O)O)O'
+patentcheck = PatentCheck(name='PatentCheck', description='Input SMILES, returns if molecule is patented. You may also input several..._direct=False, verbose=False, callbacks=None, callback_manager=None, tags=None, metadata=None, handle_tool_error=False)
+
+    def test_patentcheck_not(choline, patentcheck):
+        patented = patentcheck._run(choline)
+>       patented = ast.literal_eval(patented)
+
+chemcrow-public-main/tests/test_search.py:85: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+../miniconda3/envs/chemcrow-repro/lib/python3.10/ast.py:64: in literal_eval
+    node_or_string = parse(node_or_string.lstrip(" \t"), mode='eval')
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+source = 'Invalid SMILES string', filename = '<unknown>', mode = 'eval'
+
+    def parse(source, filename='<unknown>', mode='exec', *,
+              type_comments=False, feature_version=None):
+        """
+        Parse the source into an AST node.
+        Equivalent to compile(source, filename, mode, PyCF_ONLY_AST).
+        Pass type_comments=True to get back type comments where the syntax allows.
+        """
+        flags = PyCF_ONLY_AST
+        if type_comments:
+            flags |= PyCF_TYPE_COMMENTS
+        if isinstance(feature_version, tuple):
+            major, minor = feature_version  # Should be a 2-tuple.
+            assert major == 3
+            feature_version = minor
+        elif feature_version is None:
+            feature_version = -1
+        # Else it should be an int giving the minor version for 3.x.
+>       return compile(source, filename, mode, flags,
+                       _feature_version=feature_version)
+E         File "<unknown>", line 1
+E           Invalid SMILES string
+E                   ^^^^^^
+E       SyntaxError: invalid syntax
+
+../miniconda3/envs/chemcrow-repro/lib/python3.10/ast.py:50: SyntaxError
+---------------------------------------------------------------------------------------------------- Captured stdout call ----------------------------------------------------------------------------------------------------
+Starting surechembl download to cache directory /root/.cache/molbloom
+====================================================================================================== warnings summary ======================================================================================================
+../miniconda3/envs/chemcrow-repro/lib/python3.10/site-packages/paperscraper/utils.py:24
+  /root/miniconda3/envs/chemcrow-repro/lib/python3.10/site-packages/paperscraper/utils.py:24: DeprecationWarning: Inheritance class ThrottledClientSession from ClientSession is discouraged
+    class ThrottledClientSession(aiohttp.ClientSession):
+
+chemcrow-public-main/chemcrow/tools/safety.py:8
+  /root/autodl-tmp/chemcrow-public-main/chemcrow/tools/safety.py:8: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+    import pkg_resources
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+================================================================================================== short test summary info ===================================================================================================
+FAILED chemcrow-public-main/tests/test_converters.py::test_q2s_iupac - AssertionError: assert 'Could not fi...le at a time.' == 'CC(=O)CCc1ccc(O)cc1'
+FAILED chemcrow-public-main/tests/test_converters.py::test_q2s_cafeine - AssertionError: assert 'Could not fi...le at a time.' == 'Cn1c(=O)c2c(ncn2C)n(C)c1=O'
+FAILED chemcrow-public-main/tests/test_safety_tools.py::test_explosive_check_exp - AssertionError: assert 'Error' not in 'Explosive C...GHS rating. '
+FAILED chemcrow-public-main/tests/test_safety_tools.py::test_explosive_check_nonexp - AssertionError: assert 'Error' not in 'Explosive C...GHS rating. '
+FAILED chemcrow-public-main/tests/test_search.py::test_patentcheck -   File "<unknown>", line 1
+FAILED chemcrow-public-main/tests/test_search.py::test_patentcheck_molset -   File "<unknown>", line 1
+FAILED chemcrow-public-main/tests/test_search.py::test_patentcheck_not -   File "<unknown>", line 1
+7 failed, 19 passed, 5 skipped, 2 warnings in 546.81s (0:09:06)

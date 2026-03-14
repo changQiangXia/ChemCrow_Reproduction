@@ -1,0 +1,38 @@
+Looking in indexes: http://mirrors.aliyun.com/pypi/simple
+Collecting paper-scraper @ git+https://github.com/blackadad/paper-scraper.git
+  Cloning https://github.com/blackadad/paper-scraper.git to /tmp/pip-install-xdsastcl/paper-scraper_b31a32f51cb948098f0fde038a0af525
+  Resolved https://github.com/blackadad/paper-scraper.git to commit 29c11f081caec38834b2e8b022e078c77f82975a
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Getting requirements to build wheel: started
+  Getting requirements to build wheel: finished with status 'done'
+  Preparing metadata (pyproject.toml): started
+  Preparing metadata (pyproject.toml): finished with status 'done'
+Collecting PyMuPDF (from paper-scraper @ git+https://github.com/blackadad/paper-scraper.git)
+  Downloading http://mirrors.aliyun.com/pypi/packages/ab/56/c6c16fa2dcfe2476ec28a9aaaca773dc35c593699e81e573211c91442770/pymupdf-1.27.2-cp310-abi3-manylinux_2_28_x86_64.whl (24.9 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 24.9/24.9 MB 150.8 MB/s  0:00:00
+Requirement already satisfied: aiohttp in /root/miniconda3/envs/chemcrow-repro/lib/python3.10/site-packages (from paper-scraper @ git+https://github.com/blackadad/paper-scraper.git) (3.13.3)
+Collecting pybtex (from paper-scraper @ git+https://github.com/blackadad/paper-scraper.git)
+  Downloading http://mirrors.aliyun.com/pypi/packages/25/68/ceb5d6679baa326261f5d3e5113d9cfed6efef2810afd9f18bffb8ed312b/pybtex-0.25.1-py2.py3-none-any.whl (127 kB)
+Requirement already satisfied: aiohappyeyeballs>=2.5.0 in /root/miniconda3/envs/chemcrow-repro/lib/python3.10/site-packages (from aiohttp->paper-scraper @ git+https://github.com/blackadad/paper-scraper.git) (2.6.1)
+Requirement already satisfied: aiosignal>=1.4.0 in /root/miniconda3/envs/chemcrow-repro/lib/python3.10/site-packages (from aiohttp->paper-scraper @ git+https://github.com/blackadad/paper-scraper.git) (1.4.0)
+Requirement already satisfied: async-timeout<6.0,>=4.0 in /root/miniconda3/envs/chemcrow-repro/lib/python3.10/site-packages (from aiohttp->paper-scraper @ git+https://github.com/blackadad/paper-scraper.git) (4.0.3)
+Requirement already satisfied: attrs>=17.3.0 in /root/miniconda3/envs/chemcrow-repro/lib/python3.10/site-packages (from aiohttp->paper-scraper @ git+https://github.com/blackadad/paper-scraper.git) (25.4.0)
+Requirement already satisfied: frozenlist>=1.1.1 in /root/miniconda3/envs/chemcrow-repro/lib/python3.10/site-packages (from aiohttp->paper-scraper @ git+https://github.com/blackadad/paper-scraper.git) (1.8.0)
+Requirement already satisfied: multidict<7.0,>=4.5 in /root/miniconda3/envs/chemcrow-repro/lib/python3.10/site-packages (from aiohttp->paper-scraper @ git+https://github.com/blackadad/paper-scraper.git) (6.7.1)
+Requirement already satisfied: propcache>=0.2.0 in /root/miniconda3/envs/chemcrow-repro/lib/python3.10/site-packages (from aiohttp->paper-scraper @ git+https://github.com/blackadad/paper-scraper.git) (0.4.1)
+Requirement already satisfied: yarl<2.0,>=1.17.0 in /root/miniconda3/envs/chemcrow-repro/lib/python3.10/site-packages (from aiohttp->paper-scraper @ git+https://github.com/blackadad/paper-scraper.git) (1.23.0)
+Requirement already satisfied: typing-extensions>=4.1.0 in /root/miniconda3/envs/chemcrow-repro/lib/python3.10/site-packages (from multidict<7.0,>=4.5->aiohttp->paper-scraper @ git+https://github.com/blackadad/paper-scraper.git) (4.15.0)
+Requirement already satisfied: idna>=2.0 in /root/miniconda3/envs/chemcrow-repro/lib/python3.10/site-packages (from yarl<2.0,>=1.17.0->aiohttp->paper-scraper @ git+https://github.com/blackadad/paper-scraper.git) (3.11)
+Requirement already satisfied: PyYAML>=3.01 in /root/miniconda3/envs/chemcrow-repro/lib/python3.10/site-packages (from pybtex->paper-scraper @ git+https://github.com/blackadad/paper-scraper.git) (6.0.3)
+Collecting latexcodec>=1.0.4 (from pybtex->paper-scraper @ git+https://github.com/blackadad/paper-scraper.git)
+  Downloading http://mirrors.aliyun.com/pypi/packages/b5/40/23569737873cc9637fd488606347e9dd92b9fa37ba4fcda1f98ee5219a97/latexcodec-3.0.1-py3-none-any.whl (18 kB)
+Building wheels for collected packages: paper-scraper
+  Building wheel for paper-scraper (pyproject.toml): started
+  Building wheel for paper-scraper (pyproject.toml): finished with status 'done'
+  Created wheel for paper-scraper: filename=paper_scraper-1.8.2.dev2+g29c11f081-py3-none-any.whl size=30467 sha256=cdb1d3ad68fa444a68afc1bbfb1af192c1aa629a52328616cdcfed578a1f5c40
+  Stored in directory: /tmp/pip-ephem-wheel-cache-yygypmxd/wheels/4e/14/5c/86cea92675323f36869a487698211d59e9309dd371b79c68b3
+Successfully built paper-scraper
+Installing collected packages: PyMuPDF, latexcodec, pybtex, paper-scraper
+
+Successfully installed PyMuPDF-1.27.2 latexcodec-3.0.1 paper-scraper-1.8.2.dev2+g29c11f081 pybtex-0.25.1

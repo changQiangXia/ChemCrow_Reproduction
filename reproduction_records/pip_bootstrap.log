@@ -1,0 +1,14 @@
+Looking in indexes: http://mirrors.aliyun.com/pypi/simple
+Requirement already satisfied: pip in /root/miniconda3/envs/chemcrow-repro/lib/python3.10/site-packages (26.0.1)
+Requirement already satisfied: setuptools in /root/miniconda3/envs/chemcrow-repro/lib/python3.10/site-packages (80.10.2)
+Collecting setuptools
+  Downloading http://mirrors.aliyun.com/pypi/packages/9d/76/f789f7a86709c6b087c5a2f52f911838cad707cc613162401badc665acfe/setuptools-82.0.1-py3-none-any.whl (1.0 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.0/1.0 MB 81.2 MB/s  0:00:00
+Requirement already satisfied: wheel in /root/miniconda3/envs/chemcrow-repro/lib/python3.10/site-packages (0.46.3)
+Requirement already satisfied: packaging>=24.0 in /root/miniconda3/envs/chemcrow-repro/lib/python3.10/site-packages (from wheel) (25.0)
+Installing collected packages: setuptools
+  Attempting uninstall: setuptools
+    Found existing installation: setuptools 80.10.2
+    Uninstalling setuptools-80.10.2:
+      Successfully uninstalled setuptools-80.10.2
+Successfully installed setuptools-82.0.1

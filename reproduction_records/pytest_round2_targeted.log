@@ -1,0 +1,32 @@
+.......ss...s..s.F..                                                                                                                                                                                                   [100%]
+========================================================================================================== FAILURES ==========================================================================================================
+__________________________________________________________________________________________________ test_patentcheck_molset ___________________________________________________________________________________________________
+
+molset1 = 'O=C1N(C)C(C2=C(N=CN2C)N1C)=O.CC(C)c1ccccc1'
+patentcheck = PatentCheck(name='PatentCheck', description='Input SMILES, returns if molecule is patented. You may also input several..._direct=False, verbose=False, callbacks=None, callback_manager=None, tags=None, metadata=None, handle_tool_error=False)
+
+    def test_patentcheck_molset(molset1, patentcheck):
+        patented = patentcheck._run(molset1)
+        patented = ast.literal_eval(patented)
+        mols = split_smiles(molset1)
+        assert len(patented) == len(mols)
+        assert patented[mols[0]] == "Patented"
+>       assert patented[mols[1]] == "Novel"
+E       AssertionError: assert 'Patented' == 'Novel'
+E         
+E         - Novel
+E         + Patented
+
+chemcrow-public-main/tests/test_search.py:75: AssertionError
+---------------------------------------------------------------------------------------------------- Captured stdout call ----------------------------------------------------------------------------------------------------
+Starting surechembl download to cache directory /root/.cache/molbloom
+Starting surechembl download to cache directory /root/.cache/molbloom
+====================================================================================================== warnings summary ======================================================================================================
+../miniconda3/envs/chemcrow-repro/lib/python3.10/site-packages/paperscraper/utils.py:24
+  /root/miniconda3/envs/chemcrow-repro/lib/python3.10/site-packages/paperscraper/utils.py:24: DeprecationWarning: Inheritance class ThrottledClientSession from ClientSession is discouraged
+    class ThrottledClientSession(aiohttp.ClientSession):
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+================================================================================================== short test summary info ===================================================================================================
+FAILED chemcrow-public-main/tests/test_search.py::test_patentcheck_molset - AssertionError: assert 'Patented' == 'Novel'
+1 failed, 15 passed, 4 skipped, 1 warning in 686.22s (0:11:26)

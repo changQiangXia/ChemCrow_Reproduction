@@ -1,0 +1,294 @@
+Looking in indexes: http://mirrors.aliyun.com/pypi/simple
+Obtaining file:///root/autodl-tmp/chemcrow-public-main
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Checking if build backend supports build_editable: started
+  Checking if build backend supports build_editable: finished with status 'done'
+  Getting requirements to build editable: started
+  Getting requirements to build editable: finished with status 'done'
+  Preparing editable metadata (pyproject.toml): started
+  Preparing editable metadata (pyproject.toml): finished with status 'done'
+Collecting ipython (from chemcrow==0.3.24)
+  Downloading http://mirrors.aliyun.com/pypi/packages/9f/df/db59624f4c71b39717c423409950ac3f2c8b2ce4b0aac843112c7fb3f721/ipython-8.38.0-py3-none-any.whl (831 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 831.8/831.8 kB 58.6 MB/s  0:00:00
+Collecting python-dotenv (from chemcrow==0.3.24)
+  Downloading http://mirrors.aliyun.com/pypi/packages/0b/d7/1959b9648791274998a9c3526f6d0ec8fd2233e4d4acce81bbae76b44b2a/python_dotenv-1.2.2-py3-none-any.whl (22 kB)
+Collecting rdkit (from chemcrow==0.3.24)
+  Downloading http://mirrors.aliyun.com/pypi/packages/2a/ba/761a33df54a935a20d5ee85e6a9c6334f509a2d4e1b1fcb7d382ab731835/rdkit-2025.9.6-cp310-cp310-manylinux_2_28_x86_64.whl (36.7 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 36.7/36.7 MB 1.2 MB/s  0:00:31
+Collecting synspace (from chemcrow==0.3.24)
+  Downloading http://mirrors.aliyun.com/pypi/packages/e8/bf/59db2282ab184019bfed6e92d060ed815a90636106ee24e9bd26ee842911/synspace-1.0.0-py3-none-any.whl (2.7 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 2.7/2.7 MB 1.4 MB/s  0:00:02
+Collecting openai==0.27.8 (from chemcrow==0.3.24)
+  Downloading http://mirrors.aliyun.com/pypi/packages/67/78/7588a047e458cb8075a4089d721d7af5e143ff85a2388d4a28c530be0494/openai-0.27.8-py3-none-any.whl (73 kB)
+Collecting molbloom (from chemcrow==0.3.24)
+  Downloading http://mirrors.aliyun.com/pypi/packages/51/16/18ae0630cedf8e0d797d065d146c046abe1a8fd6f1f9ecdbdbb77030a067/molbloom-3.0.0.tar.gz (9.3 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 9.3/9.3 MB 978.2 kB/s  0:00:09
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Getting requirements to build wheel: started
+  Getting requirements to build wheel: finished with status 'done'
+  Preparing metadata (pyproject.toml): started
+  Preparing metadata (pyproject.toml): finished with status 'done'
+Collecting paper-qa==1.1.1 (from chemcrow==0.3.24)
+  Downloading http://mirrors.aliyun.com/pypi/packages/4b/16/1dcadab9ec62d7e404a51311aeb9c3433aaa08ed418403b592c2511e689d/paper_qa-1.1.1-py3-none-any.whl (22 kB)
+Collecting google-search-results (from chemcrow==0.3.24)
+  Downloading http://mirrors.aliyun.com/pypi/packages/77/30/b3a6f6a2e00f8153549c2fa345c58ae1ce8e5f3153c2fe0484d444c3abcb/google_search_results-2.4.2.tar.gz (18 kB)
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Getting requirements to build wheel: started
+  Getting requirements to build wheel: finished with status 'done'
+  Preparing metadata (pyproject.toml): started
+  Preparing metadata (pyproject.toml): finished with status 'done'
+Collecting langchain<=0.0.275,>=0.0.234 (from chemcrow==0.3.24)
+  Downloading http://mirrors.aliyun.com/pypi/packages/89/b2/3b74b85356662637bfe3efbc6462ccb28227215fcf8e07b5e9a830f5c661/langchain-0.0.275-py3-none-any.whl (1.6 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.6/1.6 MB 924.4 kB/s  0:00:01
+Collecting langchain_core==0.0.1 (from chemcrow==0.3.24)
+  Downloading http://mirrors.aliyun.com/pypi/packages/d8/15/22c84b14797294ad828ace616e9dfc1c8db6aa598bb5f03dae6ced4d523e/langchain_core-0.0.1-py3-none-any.whl (165 kB)
+Collecting nest_asyncio (from chemcrow==0.3.24)
+  Downloading http://mirrors.aliyun.com/pypi/packages/a0/c4/c2971a3ba4c6103a3d10c4b0f24f461ddc027f0f09763220cf35ca1401b3/nest_asyncio-1.6.0-py3-none-any.whl (5.2 kB)
+Collecting tiktoken (from chemcrow==0.3.24)
+  Downloading http://mirrors.aliyun.com/pypi/packages/b2/94/443fab3d4e5ebecac895712abd3849b8da93b7b7dec61c7db5c9c7ebe40c/tiktoken-0.12.0-cp310-cp310-manylinux_2_28_x86_64.whl (1.2 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.2/1.2 MB 33.6 MB/s  0:00:00
+Collecting rmrkl (from chemcrow==0.3.24)
+  Downloading http://mirrors.aliyun.com/pypi/packages/4b/10/f22e67f410b877151e987be56a0cc5dee8991005f20abde636fc8888d15d/rmrkl-0.0.3-py3-none-any.whl (5.7 kB)
+Collecting streamlit (from chemcrow==0.3.24)
+  Downloading http://mirrors.aliyun.com/pypi/packages/dc/e6/412c1e1f200ca8c32ecf10201839183e261ad61ced3ede34a66f6d4be3cf/streamlit-1.55.0-py3-none-any.whl (9.1 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 9.1/9.1 MB 114.6 MB/s  0:00:00
+Collecting rxn4chemistry (from chemcrow==0.3.24)
+  Downloading http://mirrors.aliyun.com/pypi/packages/9b/e1/49a9b3709d884c8560c26161ae401c5a19e7dd394c6c196ec2616a703654/rxn4chemistry-1.15.0-py3-none-any.whl (23 kB)
+Collecting duckduckgo-search (from chemcrow==0.3.24)
+  Downloading http://mirrors.aliyun.com/pypi/packages/db/72/c027b3b488b1010cf71670032fcf7e681d44b81829d484bb04e31a949a8d/duckduckgo_search-8.1.1-py3-none-any.whl (18 kB)
+Collecting wikipedia (from chemcrow==0.3.24)
+  Downloading http://mirrors.aliyun.com/pypi/packages/67/35/25e68fbc99e672127cc6fbb14b8ec1ba3dfef035bf1e4c90f78f24a80b7d/wikipedia-1.4.0.tar.gz (27 kB)
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Getting requirements to build wheel: started
+  Getting requirements to build wheel: finished with status 'done'
+  Preparing metadata (pyproject.toml): started
+  Preparing metadata (pyproject.toml): finished with status 'done'
+Collecting jsonpatch<2.0,>=1.33 (from langchain_core==0.0.1->chemcrow==0.3.24)
+  Downloading http://mirrors.aliyun.com/pypi/packages/73/07/02e16ed01e04a374e644b575638ec7987ae846d25ad97bcc9945a3ee4b0e/jsonpatch-1.33-py2.py3-none-any.whl (12 kB)
+Collecting langsmith<0.1.0,>=0.0.63 (from langchain_core==0.0.1->chemcrow==0.3.24)
+  Downloading http://mirrors.aliyun.com/pypi/packages/97/cd/1c618f89d3fcbb375c99a3ea950bffba8a01862cc0f0ab5032dfb95e8d1e/langsmith-0.0.92-py3-none-any.whl (56 kB)
+Collecting pydantic<3,>=1 (from langchain_core==0.0.1->chemcrow==0.3.24)
+  Downloading http://mirrors.aliyun.com/pypi/packages/5a/87/b70ad306ebb6f9b585f114d0ac2137d792b48be34d732d60e597c2f8465a/pydantic-2.12.5-py3-none-any.whl (463 kB)
+Collecting tenacity<9.0.0,>=8.1.0 (from langchain_core==0.0.1->chemcrow==0.3.24)
+  Downloading http://mirrors.aliyun.com/pypi/packages/d2/3f/8ba87d9e287b9d385a02a7114ddcef61b26f86411e121c9003eb509a1773/tenacity-8.5.0-py3-none-any.whl (28 kB)
+Collecting requests>=2.20 (from openai==0.27.8->chemcrow==0.3.24)
+  Downloading http://mirrors.aliyun.com/pypi/packages/1e/db/4254e3eabe8020b458f1a747140d32277ec7a271daf1d235b70dc0b4e6e3/requests-2.32.5-py3-none-any.whl (64 kB)
+Collecting tqdm (from openai==0.27.8->chemcrow==0.3.24)
+  Downloading http://mirrors.aliyun.com/pypi/packages/16/e1/3079a9ff9b8e11b846c6ac5c8b5bfb7ff225eee721825310c91b3b50304f/tqdm-4.67.3-py3-none-any.whl (78 kB)
+Collecting aiohttp (from openai==0.27.8->chemcrow==0.3.24)
+  Downloading http://mirrors.aliyun.com/pypi/packages/2c/c0/cfcc3d2e11b477f86e1af2863f3858c8850d751ce8dc39c4058a072c9e54/aiohttp-3.13.3-cp310-cp310-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (1.7 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.7/1.7 MB 70.4 MB/s  0:00:00
+Collecting pypdf (from paper-qa==1.1.1->chemcrow==0.3.24)
+  Downloading http://mirrors.aliyun.com/pypi/packages/8c/ec/4ccf3bb86b1afe5d7176e1c8abcdbf22b53dd682ec2eda50e1caadcf6846/pypdf-6.8.0-py3-none-any.whl (332 kB)
+Collecting faiss-cpu (from paper-qa==1.1.1->chemcrow==0.3.24)
+  Downloading http://mirrors.aliyun.com/pypi/packages/e7/e1/a5acac02aa593809f0123539afe7b4aff61d1db149e7093239888c9053e1/faiss_cpu-1.13.2-cp310-abi3-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl (23.8 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 23.8/23.8 MB 129.9 MB/s  0:00:00
+Collecting PyCryptodome (from paper-qa==1.1.1->chemcrow==0.3.24)
+  Downloading http://mirrors.aliyun.com/pypi/packages/5f/e9/a09476d436d0ff1402ac3867d933c61805ec2326c6ea557aeeac3825604e/pycryptodome-3.23.0-cp37-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (2.3 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 2.3/2.3 MB 84.2 MB/s  0:00:00
+Collecting html2text (from paper-qa==1.1.1->chemcrow==0.3.24)
+  Downloading http://mirrors.aliyun.com/pypi/packages/1d/84/1a0f9555fd5f2b1c924ff932d99b40a0f8a6b12f6dd625e2a47f415b00ea/html2text-2025.4.15-py3-none-any.whl (34 kB)
+Collecting jsonpointer>=1.9 (from jsonpatch<2.0,>=1.33->langchain_core==0.0.1->chemcrow==0.3.24)
+  Downloading http://mirrors.aliyun.com/pypi/packages/71/92/5e77f98553e9e75130c78900d000368476aed74276eb8ae8796f65f00918/jsonpointer-3.0.0-py2.py3-none-any.whl (7.6 kB)
+Collecting PyYAML>=5.3 (from langchain<=0.0.275,>=0.0.234->chemcrow==0.3.24)
+  Downloading http://mirrors.aliyun.com/pypi/packages/7a/1e/7acc4f0e74c4b3d9531e24739e0ab832a5edf40e64fbae1a9c01941cabd7/pyyaml-6.0.3-cp310-cp310-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (770 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 770.3/770.3 kB 29.5 MB/s  0:00:00
+Collecting SQLAlchemy<3,>=1.4 (from langchain<=0.0.275,>=0.0.234->chemcrow==0.3.24)
+  Downloading http://mirrors.aliyun.com/pypi/packages/5c/ad/6c4395649a212a6c603a72c5b9ab5dce3135a1546cfdffa3c427e71fd535/sqlalchemy-2.0.48-cp310-cp310-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (3.2 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.2/3.2 MB 75.8 MB/s  0:00:00
+Collecting async-timeout<5.0.0,>=4.0.0 (from langchain<=0.0.275,>=0.0.234->chemcrow==0.3.24)
+  Downloading http://mirrors.aliyun.com/pypi/packages/a7/fa/e01228c2938de91d47b307831c62ab9e4001e747789d0b05baf779a6488c/async_timeout-4.0.3-py3-none-any.whl (5.7 kB)
+Collecting dataclasses-json<0.6.0,>=0.5.7 (from langchain<=0.0.275,>=0.0.234->chemcrow==0.3.24)
+  Downloading http://mirrors.aliyun.com/pypi/packages/97/5f/e7cc90f36152810cab08b6c9c1125e8bcb9d76f8b3018d101b5f877b386c/dataclasses_json-0.5.14-py3-none-any.whl (26 kB)
+Collecting numexpr<3.0.0,>=2.8.4 (from langchain<=0.0.275,>=0.0.234->chemcrow==0.3.24)
+  Downloading http://mirrors.aliyun.com/pypi/packages/34/d4/d1a410901c620f7a6a3c5c2b1fc9dab22170be05a89d2c02ae699e27bd3f/numexpr-2.14.1-cp310-cp310-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl (440 kB)
+Collecting numpy<2,>=1 (from langchain<=0.0.275,>=0.0.234->chemcrow==0.3.24)
+  Downloading http://mirrors.aliyun.com/pypi/packages/4b/d7/ecf66c1cd12dc28b4040b15ab4d17b773b87fa9d29ca16125de01adb36cd/numpy-1.26.4-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (18.2 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 18.2/18.2 MB 141.9 MB/s  0:00:00
+Collecting aiohappyeyeballs>=2.5.0 (from aiohttp->openai==0.27.8->chemcrow==0.3.24)
+  Downloading http://mirrors.aliyun.com/pypi/packages/0f/15/5bf3b99495fb160b63f95972b81750f18f7f4e02ad051373b669d17d44f2/aiohappyeyeballs-2.6.1-py3-none-any.whl (15 kB)
+Collecting aiosignal>=1.4.0 (from aiohttp->openai==0.27.8->chemcrow==0.3.24)
+  Downloading http://mirrors.aliyun.com/pypi/packages/fb/76/641ae371508676492379f16e2fa48f4e2c11741bd63c48be4b12a6b09cba/aiosignal-1.4.0-py3-none-any.whl (7.5 kB)
+Collecting attrs>=17.3.0 (from aiohttp->openai==0.27.8->chemcrow==0.3.24)
+  Downloading http://mirrors.aliyun.com/pypi/packages/3a/2a/7cc015f5b9f5db42b7d48157e23356022889fc354a2813c15934b7cb5c0e/attrs-25.4.0-py3-none-any.whl (67 kB)
+Collecting frozenlist>=1.1.1 (from aiohttp->openai==0.27.8->chemcrow==0.3.24)
+  Downloading http://mirrors.aliyun.com/pypi/packages/5d/ed/c7895fd2fde7f3ee70d248175f9b6cdf792fb741ab92dc59cd9ef3bd241b/frozenlist-1.8.0-cp310-cp310-manylinux1_x86_64.manylinux_2_28_x86_64.manylinux_2_5_x86_64.whl (219 kB)
+Collecting multidict<7.0,>=4.5 (from aiohttp->openai==0.27.8->chemcrow==0.3.24)
+  Downloading http://mirrors.aliyun.com/pypi/packages/4b/ac/b605473de2bb404e742f2cc3583d12aedb2352a70e49ae8fce455b50c5aa/multidict-6.7.1-cp310-cp310-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (243 kB)
+Collecting propcache>=0.2.0 (from aiohttp->openai==0.27.8->chemcrow==0.3.24)
+  Downloading http://mirrors.aliyun.com/pypi/packages/08/57/8c87e93142b2c1fa2408e45695205a7ba05fb5db458c0bf5c06ba0e09ea6/propcache-0.4.1-cp310-cp310-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (196 kB)
+Collecting yarl<2.0,>=1.17.0 (from aiohttp->openai==0.27.8->chemcrow==0.3.24)
+  Downloading http://mirrors.aliyun.com/pypi/packages/50/12/95a1d33f04a79c402664070d43b8b9f72dc18914e135b345b611b0b1f8cc/yarl-1.23.0-cp310-cp310-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (102 kB)
+Collecting marshmallow<4.0.0,>=3.18.0 (from dataclasses-json<0.6.0,>=0.5.7->langchain<=0.0.275,>=0.0.234->chemcrow==0.3.24)
+  Downloading http://mirrors.aliyun.com/pypi/packages/be/2f/5108cb3ee4ba6501748c4908b908e55f42a5b66245b4cfe0c99326e1ef6e/marshmallow-3.26.2-py3-none-any.whl (50 kB)
+Collecting typing-inspect<1,>=0.4.0 (from dataclasses-json<0.6.0,>=0.5.7->langchain<=0.0.275,>=0.0.234->chemcrow==0.3.24)
+  Downloading http://mirrors.aliyun.com/pypi/packages/65/f3/107a22063bf27bdccf2024833d3445f4eea42b2e598abfbd46f6a63b6cb0/typing_inspect-0.9.0-py3-none-any.whl (8.8 kB)
+Requirement already satisfied: packaging>=17.0 in /root/miniconda3/envs/chemcrow-repro/lib/python3.10/site-packages (from marshmallow<4.0.0,>=3.18.0->dataclasses-json<0.6.0,>=0.5.7->langchain<=0.0.275,>=0.0.234->chemcrow==0.3.24) (25.0)
+Collecting typing-extensions>=4.1.0 (from multidict<7.0,>=4.5->aiohttp->openai==0.27.8->chemcrow==0.3.24)
+  Downloading http://mirrors.aliyun.com/pypi/packages/18/67/36e9267722cc04a6b9f15c7f3441c2363321a3ea07da7ae0c0707beb2a9c/typing_extensions-4.15.0-py3-none-any.whl (44 kB)
+Collecting annotated-types>=0.6.0 (from pydantic<3,>=1->langchain_core==0.0.1->chemcrow==0.3.24)
+  Downloading http://mirrors.aliyun.com/pypi/packages/78/b6/6307fbef88d9b5ee7421e68d78a9f162e0da4900bc5f5793f6d3d0e34fb8/annotated_types-0.7.0-py3-none-any.whl (13 kB)
+Collecting pydantic-core==2.41.5 (from pydantic<3,>=1->langchain_core==0.0.1->chemcrow==0.3.24)
+  Downloading http://mirrors.aliyun.com/pypi/packages/a8/76/7727ef2ffa4b62fcab916686a68a0426b9b790139720e1934e8ba797e238/pydantic_core-2.41.5-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (2.1 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 2.1/2.1 MB 85.8 MB/s  0:00:00
+Collecting typing-inspection>=0.4.2 (from pydantic<3,>=1->langchain_core==0.0.1->chemcrow==0.3.24)
+  Downloading http://mirrors.aliyun.com/pypi/packages/dc/9b/47798a6c91d8bdb567fe2698fe81e0c6b7cb7ef4d13da4114b41d239f65d/typing_inspection-0.4.2-py3-none-any.whl (14 kB)
+Collecting charset_normalizer<4,>=2 (from requests>=2.20->openai==0.27.8->chemcrow==0.3.24)
+  Downloading http://mirrors.aliyun.com/pypi/packages/4b/2f/8a1d989bfadd120c90114ab33e0d2a0cbde05278c1fc15e83e62d570f50a/charset_normalizer-3.4.5-cp310-cp310-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (196 kB)
+Collecting idna<4,>=2.5 (from requests>=2.20->openai==0.27.8->chemcrow==0.3.24)
+  Downloading http://mirrors.aliyun.com/pypi/packages/0e/61/66938bbb5fc52dbdf84594873d5b51fb1f7c7794e9c0f5bd885f30bc507b/idna-3.11-py3-none-any.whl (71 kB)
+Collecting urllib3<3,>=1.21.1 (from requests>=2.20->openai==0.27.8->chemcrow==0.3.24)
+  Downloading http://mirrors.aliyun.com/pypi/packages/39/08/aaaad47bc4e9dc8c725e68f9d04865dbcb2052843ff09c97b08904852d84/urllib3-2.6.3-py3-none-any.whl (131 kB)
+Collecting certifi>=2017.4.17 (from requests>=2.20->openai==0.27.8->chemcrow==0.3.24)
+  Downloading http://mirrors.aliyun.com/pypi/packages/9a/3c/c17fb3ca2d9c3acff52e30b309f538586f9f5b9c9cf454f3845fc9af4881/certifi-2026.2.25-py3-none-any.whl (153 kB)
+Collecting greenlet>=1 (from SQLAlchemy<3,>=1.4->langchain<=0.0.275,>=0.0.234->chemcrow==0.3.24)
+  Downloading http://mirrors.aliyun.com/pypi/packages/ad/55/9f1ebb5a825215fadcc0f7d5073f6e79e3007e3282b14b22d6aba7ca6cb8/greenlet-3.3.2-cp310-cp310-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl (591 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 591.7/591.7 kB 80.0 MB/s  0:00:00
+Collecting mypy-extensions>=0.3.0 (from typing-inspect<1,>=0.4.0->dataclasses-json<0.6.0,>=0.5.7->langchain<=0.0.275,>=0.0.234->chemcrow==0.3.24)
+  Downloading http://mirrors.aliyun.com/pypi/packages/79/7b/2c79738432f5c924bef5071f933bcc9efd0473bac3b4aa584a6f7c1c8df8/mypy_extensions-1.1.0-py3-none-any.whl (5.0 kB)
+Collecting click>=8.1.8 (from duckduckgo-search->chemcrow==0.3.24)
+  Downloading http://mirrors.aliyun.com/pypi/packages/98/78/01c019cdb5d6498122777c1a43056ebb3ebfeef2076d9d026bfe15583b2b/click-8.3.1-py3-none-any.whl (108 kB)
+Collecting primp>=0.15.0 (from duckduckgo-search->chemcrow==0.3.24)
+  Downloading http://mirrors.aliyun.com/pypi/packages/32/9e/1ec3a9678efcbb51e50d7b4886d9195f956c9fd7f4efcff13ccb152248b0/primp-1.1.3-cp310-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (4.1 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 4.1/4.1 MB 738.9 kB/s  0:00:05
+Collecting lxml>=5.3.0 (from duckduckgo-search->chemcrow==0.3.24)
+  Downloading http://mirrors.aliyun.com/pypi/packages/20/cf/cab09478699b003857ed6ebfe95e9fb9fa3d3c25f1353b905c9b73cfb624/lxml-6.0.2-cp310-cp310-manylinux_2_26_x86_64.manylinux_2_28_x86_64.whl (5.3 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 5.3/5.3 MB 104.0 MB/s  0:00:00
+Collecting decorator (from ipython->chemcrow==0.3.24)
+  Downloading http://mirrors.aliyun.com/pypi/packages/4e/8c/f3147f5c4b73e7550fe5f9352eaa956ae838d5c51eb58e7a25b9f3e2643b/decorator-5.2.1-py3-none-any.whl (9.2 kB)
+Collecting exceptiongroup (from ipython->chemcrow==0.3.24)
+  Downloading http://mirrors.aliyun.com/pypi/packages/8a/0e/97c33bf5009bdbac74fd2beace167cab3f978feb69cc36f1ef79360d6c4e/exceptiongroup-1.3.1-py3-none-any.whl (16 kB)
+Collecting jedi>=0.16 (from ipython->chemcrow==0.3.24)
+  Downloading http://mirrors.aliyun.com/pypi/packages/c0/5a/9cac0c82afec3d09ccd97c8b6502d48f165f9124db81b4bcb90b4af974ee/jedi-0.19.2-py2.py3-none-any.whl (1.6 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.6/1.6 MB 62.8 MB/s  0:00:00
+Collecting matplotlib-inline (from ipython->chemcrow==0.3.24)
+  Downloading http://mirrors.aliyun.com/pypi/packages/af/33/ee4519fa02ed11a94aef9559552f3b17bb863f2ecfe1a35dc7f548cde231/matplotlib_inline-0.2.1-py3-none-any.whl (9.5 kB)
+Collecting pexpect>4.3 (from ipython->chemcrow==0.3.24)
+  Downloading http://mirrors.aliyun.com/pypi/packages/9e/c3/059298687310d527a58bb01f3b1965787ee3b40dce76752eda8b44e9a2c5/pexpect-4.9.0-py2.py3-none-any.whl (63 kB)
+Collecting prompt_toolkit<3.1.0,>=3.0.41 (from ipython->chemcrow==0.3.24)
+  Downloading http://mirrors.aliyun.com/pypi/packages/84/03/0d3ce49e2505ae70cf43bc5bb3033955d2fc9f932163e84dc0779cc47f48/prompt_toolkit-3.0.52-py3-none-any.whl (391 kB)
+Collecting pygments>=2.4.0 (from ipython->chemcrow==0.3.24)
+  Downloading http://mirrors.aliyun.com/pypi/packages/c7/21/705964c7812476f378728bdf590ca4b771ec72385c533964653c68e86bdc/pygments-2.19.2-py3-none-any.whl (1.2 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.2/1.2 MB 41.2 MB/s  0:00:00
+Collecting stack_data (from ipython->chemcrow==0.3.24)
+  Downloading http://mirrors.aliyun.com/pypi/packages/f1/7b/ce1eafaf1a76852e2ec9b22edecf1daa58175c090266e9f6c64afcd81d91/stack_data-0.6.3-py3-none-any.whl (24 kB)
+Collecting traitlets>=5.13.0 (from ipython->chemcrow==0.3.24)
+  Downloading http://mirrors.aliyun.com/pypi/packages/00/c0/8f5d070730d7836adc9c9b6408dec68c6ced86b304a9b26a14df072a6e8c/traitlets-5.14.3-py3-none-any.whl (85 kB)
+Collecting wcwidth (from prompt_toolkit<3.1.0,>=3.0.41->ipython->chemcrow==0.3.24)
+  Downloading http://mirrors.aliyun.com/pypi/packages/68/5a/199c59e0a824a3db2b89c5d2dade7ab5f9624dbf6448dc291b46d5ec94d3/wcwidth-0.6.0-py3-none-any.whl (94 kB)
+Collecting parso<0.9.0,>=0.8.4 (from jedi>=0.16->ipython->chemcrow==0.3.24)
+  Downloading http://mirrors.aliyun.com/pypi/packages/b6/61/fae042894f4296ec49e3f193aff5d7c18440da9e48102c3315e1bc4519a7/parso-0.8.6-py2.py3-none-any.whl (106 kB)
+Collecting ptyprocess>=0.5 (from pexpect>4.3->ipython->chemcrow==0.3.24)
+  Downloading http://mirrors.aliyun.com/pypi/packages/22/a6/858897256d0deac81a172289110f31629fc4cee19b6f01283303e18c8db3/ptyprocess-0.7.0-py2.py3-none-any.whl (13 kB)
+Collecting importlib_resources (from molbloom->chemcrow==0.3.24)
+  Downloading http://mirrors.aliyun.com/pypi/packages/a4/ed/1f1afb2e9e7f38a545d628f864d562a5ae64fe6f7a10e28ffb9b185b4e89/importlib_resources-6.5.2-py3-none-any.whl (37 kB)
+Collecting Pillow (from rdkit->chemcrow==0.3.24)
+  Downloading http://mirrors.aliyun.com/pypi/packages/0c/7b/f9b09a7804ec7336effb96c26d37c29d27225783dc1501b7d62dcef6ae25/pillow-12.1.1-cp310-cp310-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl (7.0 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 7.0/7.0 MB 71.1 MB/s  0:00:00
+Collecting beautifulsoup4==4.9.0 (from rxn4chemistry->chemcrow==0.3.24)
+  Downloading http://mirrors.aliyun.com/pypi/packages/e8/b5/7bb03a696f2c9b7af792a8f51b82974e51c268f15e925fc834876a4efa0b/beautifulsoup4-4.9.0-py3-none-any.whl (109 kB)
+Collecting soupsieve>1.2 (from beautifulsoup4==4.9.0->rxn4chemistry->chemcrow==0.3.24)
+  Downloading http://mirrors.aliyun.com/pypi/packages/46/2c/1462b1d0a634697ae9e55b3cecdcb64788e8b7d63f54d923fcd0bb140aed/soupsieve-2.8.3-py3-none-any.whl (37 kB)
+Collecting executing>=1.2.0 (from stack_data->ipython->chemcrow==0.3.24)
+  Downloading http://mirrors.aliyun.com/pypi/packages/c1/ea/53f2148663b321f21b5a606bd5f191517cf40b7072c0497d3c92c4a13b1e/executing-2.2.1-py2.py3-none-any.whl (28 kB)
+Collecting asttokens>=2.1.0 (from stack_data->ipython->chemcrow==0.3.24)
+  Downloading http://mirrors.aliyun.com/pypi/packages/d2/39/e7eaf1799466a4aef85b6a4fe7bd175ad2b1c6345066aa33f1f58d4b18d0/asttokens-3.0.1-py3-none-any.whl (27 kB)
+Collecting pure-eval (from stack_data->ipython->chemcrow==0.3.24)
+  Downloading http://mirrors.aliyun.com/pypi/packages/8e/37/efad0257dc6e593a18957422533ff0f87ede7c9c6ea010a2177d738fb82f/pure_eval-0.2.3-py3-none-any.whl (11 kB)
+Collecting altair!=5.4.0,!=5.4.1,<7,>=4.0 (from streamlit->chemcrow==0.3.24)
+  Downloading http://mirrors.aliyun.com/pypi/packages/db/33/ef2f2409450ef6daa61459d5de5c08128e7d3edb773fefd0a324d1310238/altair-6.0.0-py3-none-any.whl (795 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 795.4/795.4 kB 69.2 MB/s  0:00:00
+Collecting blinker<2,>=1.5.0 (from streamlit->chemcrow==0.3.24)
+  Downloading http://mirrors.aliyun.com/pypi/packages/10/cb/f2ad4230dc2eb1a74edf38f1a38b9b52277f75bef262d8908e60d957e13c/blinker-1.9.0-py3-none-any.whl (8.5 kB)
+Collecting cachetools<8,>=5.5 (from streamlit->chemcrow==0.3.24)
+  Downloading http://mirrors.aliyun.com/pypi/packages/06/f3/39cf3367b8107baa44f861dc802cbf16263c945b62d8265d36034fc07bea/cachetools-7.0.5-py3-none-any.whl (13 kB)
+Collecting gitpython!=3.1.19,<4,>=3.0.7 (from streamlit->chemcrow==0.3.24)
+  Downloading http://mirrors.aliyun.com/pypi/packages/6a/09/e21df6aef1e1ffc0c816f0522ddc3f6dcded766c3261813131c78a704470/gitpython-3.1.46-py3-none-any.whl (208 kB)
+Collecting pandas<3,>=1.4.0 (from streamlit->chemcrow==0.3.24)
+  Downloading http://mirrors.aliyun.com/pypi/packages/40/a8/4dac1f8f8235e5d25b9955d02ff6f29396191d4e665d71122c3722ca83c5/pandas-2.3.3-cp310-cp310-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl (12.8 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 12.8/12.8 MB 125.4 MB/s  0:00:00
+Collecting pydeck<1,>=0.8.0b4 (from streamlit->chemcrow==0.3.24)
+  Downloading http://mirrors.aliyun.com/pypi/packages/ab/4c/b888e6cf58bd9db9c93f40d1c6be8283ff49d88919231afe93a6bcf61626/pydeck-0.9.1-py2.py3-none-any.whl (6.9 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 6.9/6.9 MB 95.7 MB/s  0:00:00
+Collecting protobuf<7,>=3.20 (from streamlit->chemcrow==0.3.24)
+  Downloading http://mirrors.aliyun.com/pypi/packages/9b/53/a9443aa3ca9ba8724fdfa02dd1887c1bcd8e89556b715cfbacca6b63dbec/protobuf-6.33.5-cp39-abi3-manylinux2014_x86_64.whl (323 kB)
+Collecting pyarrow>=7.0 (from streamlit->chemcrow==0.3.24)
+  Downloading http://mirrors.aliyun.com/pypi/packages/f8/82/c40b68001dbec8a3faa4c08cd8c200798ac732d2854537c5449dc859f55a/pyarrow-23.0.1-cp310-cp310-manylinux_2_28_x86_64.whl (47.6 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 47.6/47.6 MB 199.4 MB/s  0:00:00
+Collecting toml<2,>=0.10.1 (from streamlit->chemcrow==0.3.24)
+  Downloading http://mirrors.aliyun.com/pypi/packages/44/6f/7120676b6d73228c96e17f1f794d8ab046fc910d781c8d151120c3f1569e/toml-0.10.2-py2.py3-none-any.whl (16 kB)
+Collecting tornado!=6.5.0,<7,>=6.0.3 (from streamlit->chemcrow==0.3.24)
+  Downloading http://mirrors.aliyun.com/pypi/packages/b2/04/7b5705d5b3c0fab088f434f9c83edac1573830ca49ccf29fb83bf7178eec/tornado-6.5.5-cp39-abi3-manylinux1_x86_64.manylinux_2_28_x86_64.manylinux_2_5_x86_64.whl (447 kB)
+Collecting watchdog<7,>=2.1.5 (from streamlit->chemcrow==0.3.24)
+  Downloading http://mirrors.aliyun.com/pypi/packages/b5/e8/dbf020b4d98251a9860752a094d09a65e1b436ad181faf929983f697048f/watchdog-6.0.0-py3-none-manylinux2014_x86_64.whl (79 kB)
+Collecting jinja2 (from altair!=5.4.0,!=5.4.1,<7,>=4.0->streamlit->chemcrow==0.3.24)
+  Downloading http://mirrors.aliyun.com/pypi/packages/62/a1/3d680cbfd5f4b8f15abc1d571870c5fc3e594bb582bc3b64ea099db13e56/jinja2-3.1.6-py3-none-any.whl (134 kB)
+Collecting jsonschema>=3.0 (from altair!=5.4.0,!=5.4.1,<7,>=4.0->streamlit->chemcrow==0.3.24)
+  Downloading http://mirrors.aliyun.com/pypi/packages/69/90/f63fb5873511e014207a475e2bb4e8b2e570d655b00ac19a9a0ca0a385ee/jsonschema-4.26.0-py3-none-any.whl (90 kB)
+Collecting narwhals>=1.27.1 (from altair!=5.4.0,!=5.4.1,<7,>=4.0->streamlit->chemcrow==0.3.24)
+  Downloading http://mirrors.aliyun.com/pypi/packages/fe/75/0b4a10da17a44cf13567d08a9c7632a285297e46253263f1ae119129d10a/narwhals-2.18.0-py3-none-any.whl (444 kB)
+Collecting gitdb<5,>=4.0.1 (from gitpython!=3.1.19,<4,>=3.0.7->streamlit->chemcrow==0.3.24)
+  Downloading http://mirrors.aliyun.com/pypi/packages/a0/61/5c78b91c3143ed5c14207f463aecfc8f9dbb5092fb2869baf37c273b2705/gitdb-4.0.12-py3-none-any.whl (62 kB)
+Collecting smmap<6,>=3.0.1 (from gitdb<5,>=4.0.1->gitpython!=3.1.19,<4,>=3.0.7->streamlit->chemcrow==0.3.24)
+  Downloading http://mirrors.aliyun.com/pypi/packages/c1/d4/59e74daffcb57a07668852eeeb6035af9f32cbfd7a1d2511f17d2fe6a738/smmap-5.0.3-py3-none-any.whl (24 kB)
+Collecting python-dateutil>=2.8.2 (from pandas<3,>=1.4.0->streamlit->chemcrow==0.3.24)
+  Downloading http://mirrors.aliyun.com/pypi/packages/ec/57/56b9bcc3c9c6a792fcbaf139543cee77261f3651ca9da0c93f5c1221264b/python_dateutil-2.9.0.post0-py2.py3-none-any.whl (229 kB)
+Collecting pytz>=2020.1 (from pandas<3,>=1.4.0->streamlit->chemcrow==0.3.24)
+  Downloading http://mirrors.aliyun.com/pypi/packages/10/99/781fe0c827be2742bcc775efefccb3b048a3a9c6ce9aec0cbf4a101677e5/pytz-2026.1.post1-py2.py3-none-any.whl (510 kB)
+Collecting tzdata>=2022.7 (from pandas<3,>=1.4.0->streamlit->chemcrow==0.3.24)
+  Downloading http://mirrors.aliyun.com/pypi/packages/c7/b0/003792df09decd6849a5e39c28b513c06e84436a54440380862b5aeff25d/tzdata-2025.3-py2.py3-none-any.whl (348 kB)
+Collecting MarkupSafe>=2.0 (from jinja2->altair!=5.4.0,!=5.4.1,<7,>=4.0->streamlit->chemcrow==0.3.24)
+  Downloading http://mirrors.aliyun.com/pypi/packages/af/cd/ce6e848bbf2c32314c9b237839119c5a564a59725b53157c856e90937b7a/markupsafe-3.0.3-cp310-cp310-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (20 kB)
+Collecting jsonschema-specifications>=2023.03.6 (from jsonschema>=3.0->altair!=5.4.0,!=5.4.1,<7,>=4.0->streamlit->chemcrow==0.3.24)
+  Downloading http://mirrors.aliyun.com/pypi/packages/41/45/1a4ed80516f02155c51f51e8cedb3c1902296743db0bbc66608a0db2814f/jsonschema_specifications-2025.9.1-py3-none-any.whl (18 kB)
+Collecting referencing>=0.28.4 (from jsonschema>=3.0->altair!=5.4.0,!=5.4.1,<7,>=4.0->streamlit->chemcrow==0.3.24)
+  Downloading http://mirrors.aliyun.com/pypi/packages/2c/58/ca301544e1fa93ed4f80d724bf5b194f6e4b945841c5bfd555878eea9fcb/referencing-0.37.0-py3-none-any.whl (26 kB)
+Collecting rpds-py>=0.25.0 (from jsonschema>=3.0->altair!=5.4.0,!=5.4.1,<7,>=4.0->streamlit->chemcrow==0.3.24)
+  Downloading http://mirrors.aliyun.com/pypi/packages/61/b5/707f6cf0066a6412aacc11d17920ea2e19e5b2f04081c64526eb35b5c6e7/rpds_py-0.30.0-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (390 kB)
+Collecting six>=1.5 (from python-dateutil>=2.8.2->pandas<3,>=1.4.0->streamlit->chemcrow==0.3.24)
+  Downloading http://mirrors.aliyun.com/pypi/packages/b7/ce/149a00dd41f10bc29e5921b496af8b574d8413afcd5e30dfa0ed46c2cc5e/six-1.17.0-py2.py3-none-any.whl (11 kB)
+Collecting skunk (from synspace->chemcrow==0.3.24)
+  Downloading http://mirrors.aliyun.com/pypi/packages/75/89/a3f02a03a0468c59b7692204b6e8b54aec539fc3595ca3e8f133ab2d70e7/skunk-1.3.0-py3-none-any.whl (6.5 kB)
+Collecting matplotlib (from skunk->synspace->chemcrow==0.3.24)
+  Downloading http://mirrors.aliyun.com/pypi/packages/cb/aa/7ab67f2b729ae6a91bcf9dcac0affb95fb8c56f7fd2b2af894ae0b0cf6fa/matplotlib-3.10.8-cp310-cp310-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (8.7 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 8.7/8.7 MB 104.4 MB/s  0:00:00
+Collecting contourpy>=1.0.1 (from matplotlib->skunk->synspace->chemcrow==0.3.24)
+  Downloading http://mirrors.aliyun.com/pypi/packages/32/5c/1ee32d1c7956923202f00cf8d2a14a62ed7517bdc0ee1e55301227fc273c/contourpy-1.3.2-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (325 kB)
+Collecting cycler>=0.10 (from matplotlib->skunk->synspace->chemcrow==0.3.24)
+  Downloading http://mirrors.aliyun.com/pypi/packages/e7/05/c19819d5e3d95294a6f5947fb9b9629efb316b96de511b418c53d245aae6/cycler-0.12.1-py3-none-any.whl (8.3 kB)
+Collecting fonttools>=4.22.0 (from matplotlib->skunk->synspace->chemcrow==0.3.24)
+  Downloading http://mirrors.aliyun.com/pypi/packages/42/09/7dbe3d7023f57d9b580cfa832109d521988112fd59dddfda3fddda8218f9/fonttools-4.62.1-cp310-cp310-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (4.9 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 4.9/4.9 MB 86.1 MB/s  0:00:00
+Collecting kiwisolver>=1.3.1 (from matplotlib->skunk->synspace->chemcrow==0.3.24)
+  Downloading http://mirrors.aliyun.com/pypi/packages/f1/0e/ba4ae25d03722f64de8b2c13e80d82ab537a06b30fc7065183c6439357e3/kiwisolver-1.5.0-cp310-cp310-manylinux_2_12_x86_64.manylinux2010_x86_64.whl (1.6 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.6/1.6 MB 72.0 MB/s  0:00:00
+Collecting pyparsing>=3 (from matplotlib->skunk->synspace->chemcrow==0.3.24)
+  Downloading http://mirrors.aliyun.com/pypi/packages/10/bd/c038d7cc38edc1aa5bf91ab8068b63d4308c66c4c8bb3cbba7dfbc049f9c/pyparsing-3.3.2-py3-none-any.whl (122 kB)
+Collecting regex>=2022.1.18 (from tiktoken->chemcrow==0.3.24)
+  Downloading http://mirrors.aliyun.com/pypi/packages/46/b5/f30d7d3936d6deecc3ea7bea4f7d3c5ee5124e7c8de372226e436b330a55/regex-2026.2.28-cp310-cp310-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (791 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 791.7/791.7 kB 50.7 MB/s  0:00:00
+Building wheels for collected packages: chemcrow, google-search-results, molbloom, wikipedia
+  Building editable for chemcrow (pyproject.toml): started
+  Building editable for chemcrow (pyproject.toml): finished with status 'done'
+  Created wheel for chemcrow: filename=chemcrow-0.3.24-0.editable-py3-none-any.whl size=5495 sha256=5b8e86ac7bfd04ed30656e39e34a29feac684fef08fc42a7d29fe850c5851347
+  Stored in directory: /tmp/pip-ephem-wheel-cache-slzgh8me/wheels/d6/6c/d1/eecbd96c05b475cfb87be54a40909523b2245c3d68fde9b43a
+  Building wheel for google-search-results (pyproject.toml): started
+  Building wheel for google-search-results (pyproject.toml): finished with status 'done'
+  Created wheel for google-search-results: filename=google_search_results-2.4.2-py3-none-any.whl size=32093 sha256=1244b6e490a845611f0982e2e5475fd184de6b554f989cb5f47641c5f2ea7f2d
+  Stored in directory: /root/.cache/pip/wheels/15/45/0e/00a370b7e47a042c362a3d0956dfa39dbf509c1f33262fb3b4
+  Building wheel for molbloom (pyproject.toml): started
+  Building wheel for molbloom (pyproject.toml): finished with status 'done'
+  Created wheel for molbloom: filename=molbloom-3.0.0-cp310-cp310-linux_x86_64.whl size=9239989 sha256=5abb5adbd7d648f2450f55c0eb4b49d49589365c8af00f095c529b0eb7753425
+  Stored in directory: /root/.cache/pip/wheels/5d/8c/9f/9417c107ff3f226dafb07cb5773627cf47850ee719e26aa2d7
+  Building wheel for wikipedia (pyproject.toml): started
+  Building wheel for wikipedia (pyproject.toml): finished with status 'done'
+  Created wheel for wikipedia: filename=wikipedia-1.4.0-py3-none-any.whl size=11756 sha256=7c2955f553bfc93a88e1f1db5cc0eed66db202dd113cb4b59ba1e0a378a78fe3
+  Stored in directory: /root/.cache/pip/wheels/ad/8a/84/95b95c9d2ce268f90f4274e7247f87da518a2becff46deabc1
+Successfully built chemcrow google-search-results molbloom wikipedia
+Installing collected packages: pytz, pure-eval, ptyprocess, wcwidth, watchdog, urllib3, tzdata, typing-extensions, traitlets, tqdm, tornado, toml, tenacity, soupsieve, smmap, six, rpds-py, regex, PyYAML, python-dotenv, pyparsing, pygments, PyCryptodome, pyarrow, protobuf, propcache, primp, Pillow, pexpect, parso, numpy, nest_asyncio, narwhals, mypy-extensions, marshmallow, MarkupSafe, lxml, kiwisolver, jsonpointer, importlib_resources, idna, html2text, greenlet, frozenlist, fonttools, executing, decorator, cycler, click, charset_normalizer, certifi, cachetools, blinker, attrs, async-timeout, asttokens, annotated-types, aiohappyeyeballs, typing-inspection, typing-inspect, stack_data, SQLAlchemy, requests, referencing, rdkit, python-dateutil, pypdf, pydantic-core, prompt_toolkit, numexpr, multidict, matplotlib-inline, jsonpatch, jinja2, jedi, gitdb, faiss-cpu, exceptiongroup, duckduckgo-search, contourpy, beautifulsoup4, aiosignal, yarl, wikipedia, tiktoken, rxn4chemistry, pydeck, pydantic, pandas, molbloom, matplotlib, jsonschema-specifications, ipython, google-search-results, gitpython, dataclasses-json, skunk, langsmith, jsonschema, aiohttp, synspace, openai, langchain_core, langchain, altair, streamlit, rmrkl, paper-qa, chemcrow
+
+Successfully installed MarkupSafe-3.0.3 Pillow-12.1.1 PyCryptodome-3.23.0 PyYAML-6.0.3 SQLAlchemy-2.0.48 aiohappyeyeballs-2.6.1 aiohttp-3.13.3 aiosignal-1.4.0 altair-6.0.0 annotated-types-0.7.0 asttokens-3.0.1 async-timeout-4.0.3 attrs-25.4.0 beautifulsoup4-4.9.0 blinker-1.9.0 cachetools-7.0.5 certifi-2026.2.25 charset_normalizer-3.4.5 chemcrow-0.3.24 click-8.3.1 contourpy-1.3.2 cycler-0.12.1 dataclasses-json-0.5.14 decorator-5.2.1 duckduckgo-search-8.1.1 exceptiongroup-1.3.1 executing-2.2.1 faiss-cpu-1.13.2 fonttools-4.62.1 frozenlist-1.8.0 gitdb-4.0.12 gitpython-3.1.46 google-search-results-2.4.2 greenlet-3.3.2 html2text-2025.4.15 idna-3.11 importlib_resources-6.5.2 ipython-8.38.0 jedi-0.19.2 jinja2-3.1.6 jsonpatch-1.33 jsonpointer-3.0.0 jsonschema-4.26.0 jsonschema-specifications-2025.9.1 kiwisolver-1.5.0 langchain-0.0.275 langchain_core-0.0.1 langsmith-0.0.92 lxml-6.0.2 marshmallow-3.26.2 matplotlib-3.10.8 matplotlib-inline-0.2.1 molbloom-3.0.0 multidict-6.7.1 mypy-extensions-1.1.0 narwhals-2.18.0 nest_asyncio-1.6.0 numexpr-2.14.1 numpy-1.26.4 openai-0.27.8 pandas-2.3.3 paper-qa-1.1.1 parso-0.8.6 pexpect-4.9.0 primp-1.1.3 prompt_toolkit-3.0.52 propcache-0.4.1 protobuf-6.33.5 ptyprocess-0.7.0 pure-eval-0.2.3 pyarrow-23.0.1 pydantic-2.12.5 pydantic-core-2.41.5 pydeck-0.9.1 pygments-2.19.2 pyparsing-3.3.2 pypdf-6.8.0 python-dateutil-2.9.0.post0 python-dotenv-1.2.2 pytz-2026.1.post1 rdkit-2025.9.6 referencing-0.37.0 regex-2026.2.28 requests-2.32.5 rmrkl-0.0.3 rpds-py-0.30.0 rxn4chemistry-1.15.0 six-1.17.0 skunk-1.3.0 smmap-5.0.3 soupsieve-2.8.3 stack_data-0.6.3 streamlit-1.55.0 synspace-1.0.0 tenacity-8.5.0 tiktoken-0.12.0 toml-0.10.2 tornado-6.5.5 tqdm-4.67.3 traitlets-5.14.3 typing-extensions-4.15.0 typing-inspect-0.9.0 typing-inspection-0.4.2 tzdata-2025.3 urllib3-2.6.3 watchdog-6.0.0 wcwidth-0.6.0 wikipedia-1.4.0 yarl-1.23.0

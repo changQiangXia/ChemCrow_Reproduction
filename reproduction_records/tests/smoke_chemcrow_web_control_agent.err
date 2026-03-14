@@ -1,0 +1,36 @@
+[13:43:08] SMILES Parse Error: syntax error while parsing: 10025-87-3
+[13:43:08] SMILES Parse Error: check for mistakes around position 1:
+[13:43:08] 10025-87-3
+[13:43:08] ^
+[13:43:08] SMILES Parse Error: Failed parsing SMILES '10025-87-3' for input: '10025-87-3'
+[13:43:08] SMILES Parse Error: syntax error while parsing: phosphorus
+[13:43:08] SMILES Parse Error: check for mistakes around position 2:
+[13:43:08] phosphorus
+[13:43:08] ~^
+[13:43:08] SMILES Parse Error: Failed parsing SMILES 'phosphorus' for input: 'phosphorus'
+[13:43:08] SMILES Parse Error: syntax error while parsing: phosphorus
+[13:43:08] SMILES Parse Error: check for mistakes around position 2:
+[13:43:08] phosphorus
+[13:43:08] ~^
+[13:43:08] SMILES Parse Error: Failed parsing SMILES 'phosphorus' for input: 'phosphorus'
+[13:45:00] SMILES Parse Error: syntax error while parsing: 10025-87-3
+[13:45:00] SMILES Parse Error: check for mistakes around position 1:
+[13:45:00] 10025-87-3
+[13:45:00] ^
+[13:45:00] SMILES Parse Error: Failed parsing SMILES '10025-87-3' for input: '10025-87-3'
+[13:45:02] SMILES Parse Error: syntax error while parsing: phosphorus
+[13:45:02] SMILES Parse Error: check for mistakes around position 2:
+[13:45:02] phosphorus
+[13:45:02] ~^
+[13:45:02] SMILES Parse Error: Failed parsing SMILES 'phosphorus' for input: 'phosphorus'
+[13:45:02] SMILES Parse Error: syntax error while parsing: phosphorus
+[13:45:02] SMILES Parse Error: check for mistakes around position 2:
+[13:45:02] phosphorus
+[13:45:02] ~^
+[13:45:02] SMILES Parse Error: Failed parsing SMILES 'phosphorus' for input: 'phosphorus'
+[13:45:19] SMILES Parse Error: syntax error while parsing: 10025-87-3
+[13:45:19] SMILES Parse Error: check for mistakes around position 1:
+[13:45:19] 10025-87-3
+[13:45:19] ^
+[13:45:19] SMILES Parse Error: Failed parsing SMILES '10025-87-3' for input: '10025-87-3'
+Python REPL can execute arbitrary code. Use with caution.
