@@ -26,7 +26,7 @@
 - 官方公开仓库已经在当前环境下恢复到可运行、可留痕、可复查的状态。
 - 论文层面的完整系统、完整工具集合和论文结果，不宜直接写成已经复现。
 
-## 2. 与官方公开仓库相比，实际改了什么
+## 2. 与官方公开仓库相比的实际改动
 
 相对官方公开仓库，当前源码改动集中在 `8` 个 Python 文件。改动主要落在兼容层、配置入口和异常处理层。agent 主体结构、工具体系主体、测试目录和项目骨架仍沿用官方公开仓库。
 
@@ -56,7 +56,7 @@
 - [`reproduction_records/diffs/2026-03-14_original_zip_vs_official_head.diff`](reproduction_records/diffs/2026-03-14_original_zip_vs_official_head.diff)：原始压缩包与官方仓库 `HEAD` 的零差异留痕
 - [`reproduction_records/diffs/2026-03-14_current_vs_original.diff`](reproduction_records/diffs/2026-03-14_current_vs_original.diff)：当前仓库相对官方基线的源码差异
 
-## 3. 相对论文和官方仓库，当前结果达到了什么程度
+## 3. 当前结果相对论文和官方仓库的比较
 
 ### 3.1 相对论文
 
@@ -85,7 +85,7 @@
 - 哪些地方做了兼容修补，已经能逐文件说明
 - 哪些地方仍受限，已经能对应到具体测试和具体日志
 
-## 4. 当前已经验证到什么程度
+## 4. 已验证的程度
 
 ### 4.1 外部服务最小连通性
 
